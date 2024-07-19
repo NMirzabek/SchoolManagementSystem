@@ -15,6 +15,7 @@ public class Main {
             System.out.println("4. View Student Grades");
             System.out.println("5. Exit");
             System.out.println("Choose one of the options");
+            // six choice may be added.
             int userInput = scanner.nextInt();
             scanner.nextLine();
 
