@@ -8,7 +8,12 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         while (true) {
-            System.out.println("1) Add a Person, 2) View All People, 3) Assign Grade to Student, 4) View Student Grades, 5)Exiting...");
+            System.out.println("Menu:");
+            System.out.println("1. Add a Person (Student or Teacher)");
+            System.out.println("2. View All People");
+            System.out.println("3. Assign Grade to Student");
+            System.out.println("4. View Student Grades");
+            System.out.println("5. Exit");
             System.out.println("Choose one of the options");
             int userInput = scanner.nextInt();
             scanner.nextLine();
